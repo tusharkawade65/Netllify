@@ -2,15 +2,20 @@
 
 <html>
 	<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 		<title>
 		Tushar | Resume
 		</title>
     <style>
+      
       div.relative{
         position: relative;
         left: 3px;
         right:3px;
-        border: 3px solid #73AD21;
+        border: 1px solid #73AD21;
+        width: 84%;
+        height: 1000px;
+        
       }
     </style>
 	</head>
@@ -32,12 +37,19 @@
         </div>
       </nav>
 	<body>
+    <?php
+    echo "Hello World!";
+    ?>
 	<b><h1>	Hello Tushar! </h1></b>
+  
+  <img src="https://media-exp1.licdn.com/dms/image/C5103AQFKJOO4v7uESA/profile-displayphoto-shrink_200_200/0/1587036306556?e=1648684800&v=beta&t=NrzpNicfe9av04JbRC5xitCeHuo8nnoKN0ene6fQzAU" class="img-thumbnail" alt="..."align="right"/>
   <div class="relative">
     relative text
   </div>
-  <img src="https://media-exp1.licdn.com/dms/image/C5103AQFKJOO4v7uESA/profile-displayphoto-shrink_200_200/0/1587036306556?e=1648684800&v=beta&t=NrzpNicfe9av04JbRC5xitCeHuo8nnoKN0ene6fQzAU" class="img-thumbnail" alt="..."align="right"/>
-  	
+  
+
+ 
+  
 </body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
 </html>
